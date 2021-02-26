@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient background</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Background generator</h1>
+	<div>
+		<input class="color1" type="color" name="color1" value="#686CEE">
+		<input  class="color2" type="color" name="color2" value="#C11A52">
+	</div>
+	<button class="random">Generate random background!</button>
+	<h2>Current CSS background</h2>
+	<h3 id="text"></h3>
+	<button id="open-modal-btn">Open list of generated colors</button>
+
+	<div id="overlay"></div>
+
+	<div id="modal">
+	  <h2>Generated colors:</h2>
+	  <ul id="ul">
+
+	  </ul>
+	  <button id="close-modal-btn">Close Modal</button>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
