@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/650e805292.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Assets/css/animate.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/queries.css">
+    <title>VStore</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./Assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="./Assets/icons/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid js-nav">
+            <div class="row">
+                <img src="Assets/img/logo-white.png" alt="Yummyfood logo" class="logo">
+                <img src="Assets/img/logo.png" alt="Yummyfood logo" class="logo-black">
+                <ul class="main-nav main-nav-js align-items-center justify-content-center">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#works">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#plans">Sign up</a></li>
+                </ul>
+                <ion-icon name="menu" class="mobile-nav-icon js-mobile-nav"></ion-icon>
+            </div>
+        </div>
+        <div class="hero-text-box">
+            <h1>WE PICK UP, STORE <br>AND RETURN YOUR STUFF.</h1>
+            <a class="btn btn-full js--scroll-to-plans my-1" href="#">What's the price?</a>
+            <a class="btn btn-ghost js--scroll-to-start my-1" href="#">Show me more</a>
+        </div>
+    </header>
+
+    <section class="section-features js--section-features" id="features"" id=" features">
+        <div class="row justify-content-center">
+            <h2>SELF-STORAGE MADE SIMPLE</h2>
+            <p class="long-copy">
+                Hello, we're VSTORE. We pick up, store, and return your stuff according to your time schedule and your
+                needs. Save time, space and money by using our services!
+            </p>
+        </div>
+
+        <div class="row mx-auto px-3 pt-3 justify-content-center js--wp-1">
+            <div class="col-md-3 col-sm-6 box">
+                <i class="fas fa-couch icon-big mx-auto"></i>
+                <h3>ORDER AND SCHEDULE ONLINE</h3>
+                <p>
+                    Order or use your own boxes, pack your things and schedule a pick up all from the comfort of your
+                    home.
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 box">
+                <i class="fas fa-truck-loading icon-big"></i>
+                <h3>WE’LL PICK UP AND STORE YOUR STUFF</h3>
+                <p>
+                    When you’re ready, we’ll come grab your things and store them in our secure, temperature-controlled
+                    facility.
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 box">
+                <i class="fas fa-shipping-fast icon-big"></i>
+                <h3>WANT SOMETHING BACK? LET US KNOW</h3>
+                <p>
+                    Need a few things back? Need everything back? No problem. Schedule a delivery and we’ll drop it off
+                    where you need it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-0">
+        <div class="container-fluid d-flex flex-wrap p-0">
+            <div class="row justify-content-center">
+                <h2>We have been featured in</h2>
+            </div>
+
+            <div class="row justify-content-center m-0 mw-100">
+                <div class="col-4 col-md-2 p-0 d-flex align-items-center">
+                    <img src="./Assets/img/cbcLogo.png" class="img-press" style="transform: scale(1.3);" alt="">
+                </div>
+                <div class=" col-4 col-md-2 p-0 d-flex align-items-center ">
+                    <img src=" ./Assets/img/globalnewsLogo.png" class="img-press" style="transform: scale(.9);" alt="">
+                </div>
+                <div class="col-4 col-md-2 p-0 d-flex align-items-center ">
+                    <img src="./Assets/img/bnnLogo.png" class="img-press" alt="">
+                </div>
+                <div class="col-4 col-md-2 p-0 d-flex align-items-center ">
+                    <img src="./Assets/img/fpLogo.png" class="img-press" alt="">
+                </div>
+                <div class="col-4 col-md-2 p-0 d-flex align-items-center ">
+                    <img src="./Assets/img/betakit_logo.png" class="img-press" alt="">
+                </div>
+                <div class="col-4 col-md-2 p-0 d-flex align-items-center ">
+                    <img src="./Assets/img/notable.png" class="img-press" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-steps" id="works">
+        <div class="row justify-content-center">
+            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 steps-box text-a justify-content-center d-flex">
+                <img src="./Assets/img/iphone-x-mockup.png" alt="Yummyfood app on iPhone" class="app-screen js--wp-2">
+            </div>
+            <div class="col-12 col-md-6 steps-box .flex-column">
+                <div class="works-step d-flex flex-row mt-5">
+                    <div>1</div>
+                    <p>Pick your plan and place your order online or over the phone.</p>
+                </div>
+                <div class="works-step d-flex flex-row ">
+                    <div>2</div>
+                    <p>We’ll store your items in one of our secure, temperature-controlled facilities.</p>
+                </div>
+                <div class="works-step d-flex flex-row mb-3">
+                    <div>3</div>
+                    <p>Schedule when you want your stuff back and we'll deliver it for a small recall fee of $25.</p>
+                </div>
+
+                <a href="#" class="btn-app"><img src="./Assets/img/download-app.svg" alt="App Store Button"></a>
+                <a href="#" class="btn-app"><img src="./Assets/img/download-app-android.png"
+                        alt="Play Store Button"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cities" id="cities">
+        <div class="row justify-content-center">
+            <h2>We're currently in these cities</h2>
+        </div>
+        <div class="row js--wp-3" style="max-width: 90vw;">
+            <div class="col-12 col-md-6 col-lg-3 box-city">
+                <img src="./Assets/img/lisbon-3.jpg" alt="Lisbon" class="city-img">
+                <h3>Lisbon</h3>
+                <div class="city-feature">
+                    <ion-icon name="person" class="icon-small"></ion-icon>
+                    1600+ happy customers
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star" class="icon-small"></ion-icon>
+                    600m<sup>2</sup> storage space
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+                    <a href="#">@VSTORE_lx</a>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-3 box-city">
+                <img src="./Assets/img/san-francisco.jpg" alt="san-francisco" class="city-img">
+                <h3>San Francisco</h3>
+                <div class="city-feature">
+                    <ion-icon name="person" class="icon-small"></ion-icon>
+                    3700+ happy customers
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star" class="icon-small"></ion-icon>
+                    1600m<sup>2</sup> storage space
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+                    <a href="#">@VSTORE_sf</a>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-3 box-city">
+                <img src="./Assets/img/berlin.jpg" alt="Berlin" class="city-img">
+                <h3>Berlin</h3>
+                <div class="city-feature">
+                    <ion-icon name="person" class="icon-small"></ion-icon>
+                    2300+ happy customers
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star" class="icon-small"></ion-icon>
+                    1200m<sup>2</sup> storage space
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+                    <a href="#">@VSTORE_berlin</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 box-city">
+                <img src="./Assets/img/london.jpg" alt="London" class="city-img">
+                <h3>London</h3>
+                <div class="city-feature">
+                    <ion-icon name="person" class="icon-small"></ion-icon>
+                    1200+ happy customers
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star" class="icon-small"></ion-icon>
+                    1000m<sup>2</sup> storage space
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+                    <a href="#">@VSTORE_london</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-testimonials">
+        <div class="row justify-content-center">
+            <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+        </div>
+        <div class="row" style="max-width: 80%;">
+            <div class="col-12 col-md-4">
+                <blockquote class="shadow">
+                    "Had the pleasure of dealing with this lovely company today These guys are some of the friendliest
+                    most helpful and caring human beings around! Fast, easy and reliable Would definitely use this
+                    service again Thank you!! "
+                    <cite><img src="./Assets/img/customer-1.jpg">Alberto Pereira</cite>
+                </blockquote>
+            </div>
+            <div class="col-12 col-md-4">
+                <blockquote class="shadow">
+                    "One of the best decisions I made when I wanted to move. Very satisfied with the services On time,
+                    easy to schedule, clean
+                    new bins, and very courteous crew
+                    Wonderful idea for university students Thank you VStore! "
+                    <cite><img src="./Assets/img/customer-2.jpg">Joana Silva</cite>
+                </blockquote>
+            </div>
+            <div class="col-12 col-md-4">
+                <blockquote class="shadow">
+                    " Was in a huge bind with a move out of my current place VStore showed up next day no problem
+                    to help out! Everything was great. Great rates, and very prompt service I cannot believe how great a
+                    find this was! "
+                    <cite><img src="./Assets/img/customer-3.jpg">Joseph Gonzalez</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-plans js--section-plans" id="plans">
+        <div class="row justify-content-center">
+            <h2>SAVE TIME, SAVE SPACE, SAVE MONEY</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-xl-6">
+                <div class="plan-box shadow js--wp-4">
+                    <div>
+                        <h3 class="mt-2">not a lot to store?</h3>
+                        <div class="d-flex justify-content-center"><img src="./Assets/img/itemPlan.png" alt=""
+                                class="w-75"></div>
+                        <p class="plan-price-meal">Try our item plan starting at:</p>
+                        <p class="plan-price">$3 <span>/ month</span></p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Flexible solutions for
+                                individual items
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Free bin rental
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Free pickup for boxes
+                                and bulky items
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-full mb-3">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-6">
+                <div class="plan-box shadow js--wp-4">
+                    <div>
+                        <h3 class="mt-2">LOTS TO STORE?</h3>
+                        <div class="d-flex justify-content-center"><img src="./Assets/img/spaceplan.png" alt=""
+                                class="w-75"></div>
+                        <p class="plan-price-meal">Try our space plan starting at:</p>
+                        <p class="plan-price">$45 <span>/ month</span></p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Flexible solutions for
+                                individual items
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Free bin rental
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Perfect for storing
+                                lots of items
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-full mb-3">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form">
+        <div class="row justify-content-center">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row justify-content-center px-4" style="max-width: 700px;">
+            <form method="post" action="#" class="contact-form">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4">
+                        <label>Newsletter?</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-6 pr-0 footer-col-links mb-3">
+                <ul class="footer-nav d-flex justify-content-between">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 footer-col-icons">
+                <ul class="social-links d-flex justify-content-between">
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook" class="ion-social-facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter" class="ion-social-twitter"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-pinterest" class="ion-social-pinterest"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram" class="ion-social-instagram"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <p>
+                Copyright &copy; 2020 by VStore. All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <script src="./Assets/js/jquery-3.5.0.min.js"></script>
+    <script src="./Assets/js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
